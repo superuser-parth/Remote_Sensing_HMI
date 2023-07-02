@@ -68,13 +68,13 @@ and predictive maintenance. This project allows for remote monitoring of multipl
 6. You can interact with the dashboard to visualize specific data and configure alert notifications.
 ## Images
 
-[dashboard1](https://github.com/superuser-parth/Remote_Sensing_HMI/blob/main/Images/dashboard1.jpg)
+![dashboard1](https://github.com/superuser-parth/Remote_Sensing_HMI/blob/main/Images/dashboard1.jpg)
 
-[dashboard2](https://github.com/superuser-parth/Remote_Sensing_HMI/blob/main/Images/dashboard2.jpg)
+![dashboard2](https://github.com/superuser-parth/Remote_Sensing_HMI/blob/main/Images/dashboard2.jpg)
 
-[dashboard3](https://github.com/superuser-parth/Remote_Sensing_HMI/blob/main/Images/dashboard3.jpg)
+![dashboard3](https://github.com/superuser-parth/Remote_Sensing_HMI/blob/main/Images/dashboard3.jpg)
 
-[dashboard4](https://github.com/superuser-parth/Remote_Sensing_HMI/blob/main/Images/dashboard4.jpg)
+![dashboard4](https://github.com/superuser-parth/Remote_Sensing_HMI/blob/main/Images/dashboard4.jpg)
 
 ## Acknowledgements
 
