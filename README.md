@@ -72,9 +72,9 @@ Special thanks to the contributors and open-source projects that have inspired a
 
 If you have any feedback, please reach out to us at:
 
-saurabhhagawane718@gmail.com
-bhavesh.jadhav@spit.ac.in
-yogaonkar@gmail.com
+- saurabhhagawane718@gmail.com
+- bhavesh.jadhav@spit.ac.in
+- yogaonkar@gmail.com
 
 
 ## Contributors
