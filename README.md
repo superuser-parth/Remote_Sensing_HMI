@@ -5,19 +5,7 @@ This project aims to create a remote monitoring web application for Telecom SMPS
 
 
 ## Project Overview
-The rapid growth of the telecommunications industry has led
-to an increased demand for efficient and reliable power
-supply systems. Telecom networks heavily rely on SwitchedMode Power Supplies (SMPS) to ensure a stable and
-uninterrupted power source for their operations. However, the
-traditional approach of monitoring and managing these power
-supplies often involves manual inspections, which are time consuming, prone to human errors, and can lead to significant downtime in the event of failures or malfunctions.
-To overcome these challenges, there is a growing interest in
-implementing Internet of Things (IoT) technologies to enable
-remote monitoring and management of telecom SMPS. IoT
-offers a promising solution by leveraging the power of
-interconnected devices and sensors to collect and analyze
-real-time data, enabling proactive monitoring, fault detection,
-and predictive maintenance. This project allows for remote monitoring of multiple SMPS units through a web application. The ESP32 microcontroller is used to establish a WiFi connection with the SMPS units and collect data such as voltage, current, and temperature. This data is then uploaded to Firebase for storage and retrieval. The web dashboard, built using React, fetches the data from Firebase and presents it in a user-friendly format, providing real-time monitoring and analytics of the SMPS units.
+The rapid growth of the telecommunications industry has led to an increased demand for efficient and reliable power supply systems. Telecom networks heavily rely on Switched Mode Power Supplies (SMPS) to ensure a stable and uninterrupted power source for their operations. However, the traditional approach of monitoring and managing these power supplies often involves manual inspections, which are time consuming, prone to human errors, and can lead to significant downtime in the event of failures or malfunctions. To overcome these challenges, there is a growing interest in implementing Internet of Things (IoT) technologies to enable remote monitoring and management of telecom SMPS. IoT offers a promising solution by leveraging the power of interconnected devices and sensors to collect and analyze real-time data, enabling proactive monitoring, fault detection, and predictive maintenance. This project allows for remote monitoring of multiple SMPS units through a web application. The ESP32 microcontroller is used to establish a WiFi connection with the SMPS units and collect data such as voltage, current, and temperature. This data is then uploaded to Firebase for storage and retrieval. The web dashboard, built using React, fetches the data from Firebase and presents it in a user-friendly format, providing real-time monitoring and analytics of the SMPS units.
 
 ## Features
 
