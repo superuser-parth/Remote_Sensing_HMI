@@ -78,10 +78,7 @@ and predictive maintenance. This project allows for remote monitoring of multipl
 
 ## Acknowledgements
 
-Special thanks to the contributors and open-source projects that have inspired and provided valuable resources for this project. Also we would like to thank Prathamesh Shelar, Prabhat Kumar and Varun Kamath for guiding us throughout the project.
-prathamesh.shelar@spit.ac.in
-prabhat.kumar@spit.ac.in
-varun.kamath@spit.ac.in
+Special thanks to the contributors and open-source projects that have inspired and provided valuable resources for this project. Also we would like to thank Prathamesh Shelar (prathamesh.shelar@spit.ac.in), Prabhat Kumar (prabhat.kumar@spit.ac.in) and Varun Kamath (varun.kamath@spit.ac.in) for guiding us throughout the project.
 
 ## Feedback
 
