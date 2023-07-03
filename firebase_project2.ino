@@ -4,27 +4,25 @@
 #include <Wire.h>
 #include "time.h"
 
-
 // Provide the token generation process info.
 #include <addons/TokenHelper.h>
 
 // Provide the RTDB payload printing info and other helper functions.
 #include <addons/RTDBHelper.h>
 
-
 // Insert your network credentials
-#define WIFI_SSID "moto g(60)_9958"
-#define WIFI_PASSWORD "77777777"
+#define WIFI_SSID "Your WiFi Credentials"
+#define WIFI_PASSWORD "Your WiFi password"
 
 // Insert Firebase project API Key
-#define API_KEY "AIzaSyD8GQluVh4cndeOO09cA8tt22hrv4vosCA"
+#define API_KEY "Your Firebase Project API key"
 
 // Insert Authorized Email and Corresponding Password
-#define USER_EMAIL "saurabh.hagawane@spit.ac.in"
-#define USER_PASSWORD "23456789"
+#define USER_EMAIL "Your EmaiL ID"
+#define USER_PASSWORD "Your password"
 
 // Insert RTDB URLefine the RTDB URL
-#define DATABASE_URL "https://telecomsmps-default-rtdb.firebaseio.com/"
+#define DATABASE_URL "Your Realtime Database URL"
 
 // Define Firebase objects
 FirebaseData fbdo;
@@ -67,7 +65,6 @@ FirebaseJson json;
 
 const char* ntpServer = "pool.ntp.org";
 
-
 float distance;
 float Voltage1;
 float Voltage2;
@@ -85,7 +82,6 @@ float Warning1;
 float Warning2;
 float Warning3;
 float Warning4;
-
 
 // Timer variables (send new readings every three minutes)
 unsigned long sendDataPrevMillis = 0;
@@ -120,7 +116,6 @@ int values[12];
 
 LiquidCrystal lcd(18,5,17,16,4,0);
 //LiquidCrystal lcd(22,23,5,18,19,21);
-
 
 // Initialize WiFi
 void initWiFi() {
@@ -291,7 +286,6 @@ void loop(){
   Serial.print(current3_amp);
   Serial.print("A");*/
   
-  
   /* Send new readings to database
   if (Firebase.ready() && (millis() - sendDataPrevMillis > timerDelay || sendDataPrevMillis == 0)){
     sendDataPrevMillis = millis();*/
@@ -300,7 +294,6 @@ void loop(){
     timestamp = getTime();
     /*Serial.print ("time: ");
     Serial.println (timestamp);*/
-
 
     parentPath= databasePath + "/" + String(timestamp);
     parentPath2= databasePath2;
