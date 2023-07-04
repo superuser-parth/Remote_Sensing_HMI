@@ -30,6 +30,10 @@ The rapid growth of the telecommunications industry has led to an increased dema
 - Node.js and npm for React development
 - Firebase account for data storage
 - React libraries for web dashboard development (e.g., React Router, React Redux, Chart.js)
+## FrontEnd
+The frontend of the project is built using React, a popular JavaScript library for building user interfaces. React allows for the creation of reusable UI components, making the development process efficient and maintainable. The frontend is responsible for rendering the web dashboard, fetching data from the backend, and presenting it in a user-friendly format. It leverages HTML, CSS, and JavaScript to create an interactive and responsive user interface.  
+## BackEnd
+The backend of the project consists of a server built using Node.js and Express.js. It receives data from the ESP32 microcontroller and handles authentication, data validation, and server-side operations. The collected data is stored in Firebase, a real-time database, for retrieval and analysis. The backend ensures seamless communication between the microcontroller, database, and frontend user interface.
 ## Setup Instructions
 
 1. Clone this repository to your local machine.
